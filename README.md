@@ -48,40 +48,6 @@ O ArenaXP centraliza o cadastro, controla entradas e saídas com validação de 
 - **Maven** para build
 - **JUnit 5** e **Mockito** nos testes unitários da regra de saldo
 
-## Capturas de tela
-
-**Login com credenciais inválidas**
-
-![Login com erro](docs/screenshots/01-login-erro.png)
-
-**Lista de equipamentos, com busca, filtro e ações**
-
-![Lista de equipamentos](docs/screenshots/02-equipamentos.png)
-
-**Validação do formulário**
-
-![Validação de campos](docs/screenshots/03-validacao.png)
-
-**Busca por código de patrimônio**
-
-![Busca](docs/screenshots/04-busca.png)
-
-**Gestão de estoque em ordem alfabética**
-
-![Gestão de estoque](docs/screenshots/05-estoque.png)
-
-**Saída bloqueada por saldo insuficiente**
-
-![Saída bloqueada](docs/screenshots/06-saida-bloqueada.png)
-
-**Alerta de estoque crítico**
-
-![Alerta de estoque crítico](docs/screenshots/07-alerta-estoque-critico.png)
-
-**Exclusão bloqueada para equipamento com movimentações**
-
-![Exclusão bloqueada](docs/screenshots/08-exclusao-bloqueada.png)
-
 ## Modelo de dados
 
 O banco `arenaxp_db` tem 3 tabelas. Cada movimentação pertence a um único equipamento e a um único usuário.
@@ -199,8 +165,7 @@ O relatório com os 15 casos de teste e as evidências em tela está em [`04_Tes
 │           ├── service/      regra de saldo e estoque
 │           ├── controller/   rotas e telas
 │           └── security/     Spring Security e BCrypt
-├── 04_Testes/              relatório de testes e evidências
-└── docs/screenshots/       imagens usadas neste README
+└── 04_Testes/              relatório de testes e evidências
 ```
 
 ## Autor
