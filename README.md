@@ -1,10 +1,6 @@
 # ArenaXP - Gestão de Equipamentos E-Sports
 
-![Java](https://img.shields.io/badge/Java-17+-ED8B00?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-6DB33F?logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8+-4479A1?logo=mysql&logoColor=white)
-![Thymeleaf](https://img.shields.io/badge/Thymeleaf-template-005F0F?logo=thymeleaf&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-build-C71A36?logo=apachemaven&logoColor=white)
+**Java 17+ · Spring Boot 3.5 · MySQL 8+ · Thymeleaf · Maven**
 
 Sistema web para controlar o estoque de equipamentos gamer (mouses, teclados, headsets, monitores e placas de captura) de uma rede de arenas e estúdios de e-sports. O sistema registra entradas e saídas, impede saídas maiores que o saldo, mostra um alerta destacado quando um item chega ao estoque mínimo e guarda o histórico de quem retirou cada equipamento.
 
@@ -149,7 +145,7 @@ cd 03_Codigo_Fonte/arenaxp-app
 mvn test
 ```
 
-O relatório com os 15 casos de teste e as evidências em tela está em [`04_Testes/Relatorio_Testes_Evidencias.pdf`](SAEP_2026_Projeto01_ArenaXP_GuilhermeFelberque/04_Testes).
+O relatório com os 15 casos de teste e as evidências em tela está em [`04_Testes/Relatorio_Testes_Evidencias.pdf`](04_Testes/Relatorio_Testes_Evidencias.pdf).
 
 ## Estrutura do repositório
 
