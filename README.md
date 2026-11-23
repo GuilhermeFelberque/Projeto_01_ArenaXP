@@ -111,7 +111,7 @@ cd 03_Codigo_Fonte/arenaxp-app
 mvn spring-boot:run
 ```
  
-5. **Acesse** `http://localhost:8081`. Se a porta estiver ocupada, altere `server.port` no `application.properties`.
+5. **Acesse** `http://localhost:8080`. Se a porta estiver ocupada, altere `server.port` no `application.properties`.
 ### Usuários de teste
  
 | E-mail | Senha | Perfil |
