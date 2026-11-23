@@ -149,7 +149,7 @@ cd 03_Codigo_Fonte/arenaxp-app
 mvn test
 ```
 
-O relatório com os 15 casos de teste e as evidências em tela está em [`04_Testes/Relatorio_Testes_Evidencias.pdf`](04_Testes/SAEP_2026_Projeto01_ArenaXP_GuilhermeFelberque/04_Testes).
+O relatório com os 15 casos de teste e as evidências em tela está em [`04_Testes/Relatorio_Testes_Evidencias.pdf`](SAEP_2026_Projeto01_ArenaXP_GuilhermeFelberque/04_Testes).
 
 ## Estrutura do repositório
 
